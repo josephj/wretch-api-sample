@@ -1,7 +1,12 @@
-Please add config.php by yourself with the following information:
+1. Please add config.php by yourself with the following information:
 
 <?php
+define("APIHOST", "http://wretch.yahooapis.com/v1.2/");
 define("APPID", "<Your App ID>");
 define("CONSUMER_KEY", "<Your Consumer Key>");
 define("CONSUMER_SECRET", "<Your Consumer Secret>");
 ?>
+
+2. Add an upload folder with proper permission.
+$ mkdir uplood
+$ sudo chmod 777 upload

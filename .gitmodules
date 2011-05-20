@@ -1,0 +1,3 @@
+[submodule "yos-social-php"]
+	path = yos-social-php
+	url = https://github.com/yahoo/yos-social-php.git
